@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+
+body{
+    background-color: rgb(194, 221, 244);
+    height: 1800px;
+}
+
+
+.A {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 5%;
+    position: relative;
+    left: 650px;
+    top: 50px;
+}
+
+
+.B {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(220, 121, 243);
+    margin-left: 5%;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 96px;
+}
+
+
+.C {
+    border: 1px solid;
+    width: 1600px;
+    height: 400px;
+  
+    margin: 0 auto;
+    margin: 6%;
+}
+
+
+.D {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(137, 207, 116);
+
+    
+}
+
+.D {
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.C {
+    position: relative;
+}
+
+
+
+.E {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(230, 228, 113);
+    margin: 10%;
+ 
+  
+}
+
+
+.E {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+.F {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(208, 9, 9);
+  
+ 
+    
+    }
+
+    .F {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(208, 9, 9);
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
